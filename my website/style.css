@@ -1,0 +1,57 @@
+/* General Body Styles */
+body {
+    font-family: "Courier New", monospace;
+    background-color: #000; /* Black background */
+    color: #fff; /* Default white text */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 100%; /* Full height */
+    overflow: auto; /* Allow scrolling */
+}
+
+/* Banner Section */
+#bannerSection {
+    position: fixed; /* Fix the banner at the top */
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #000; /* Keep the banner background black */
+    z-index: 10; /* Make sure the banner stays above the content */
+    padding: 20px;
+    color: red; /* Red color for banner text */
+    font-size: 18px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+/* To make space for the fixed banner */
+body {
+    padding-top: 120px; /* Space for the fixed banner */
+}
+
+/* Message container styling */
+#messageContainer {
+    margin-top: 20px; /* Small margin to separate from the banner */
+    font-size: 24px;
+    color: red; /* Red color for the message text */
+    background-color: #111; /* Dark background for the message container */
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    max-height: 80vh; /* Limit the height to 80% of the viewport height */
+    overflow-y: auto; /* Enable vertical scrolling if the content overflows */
+}
+
+/* Ensure the entire page can scroll if needed */
+html, body {
+    height: 100%; /* Ensure the page takes up full height */
+    margin: 0;
+    padding: 0;
+    overflow: auto; /* Enable scrolling */
+}
+
+
+
